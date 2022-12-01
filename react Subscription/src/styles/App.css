@@ -1,0 +1,99 @@
+:root{
+    font-size: 2vw;
+    text-align: center;
+}
+
+#root{
+    background-color: rgb(45, 67, 94);
+    padding: 5%;
+}
+.container{
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+    
+}
+.community{
+    background-color: rgb(255, 253, 253);
+    height: 50%;
+    width: 90%;
+    padding: 5%;
+    
+
+}
+
+.community p:nth-child(1){
+    color: rgb(3, 49, 51);
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.community p:nth-child(2){
+    color: rgb(32, 161, 7);
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+.community p:nth-child(3){
+    color: rgb(87, 82, 82);
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.more{
+    background-color: antiquewhite;
+    display: flex;
+    color: aliceblue;
+    height: 50%;
+    width: 100%;
+}
+
+.card{
+    background-color:  rgb(15, 67, 66);
+    width: 45%;
+    padding: 5%;
+}
+.card p:first-child{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.card span{
+    font-size: 2rem;
+}
+.card p{
+    margin-bottom: 0.7rem;
+}
+.why-us{
+    background-color: rgba(85, 145, 142, 0.698);
+    width: 45%;
+    padding: 5%;
+}
+.why-us > p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.why-us ul{
+    padding: 0rem;
+    margin : 0.4rem;
+    text-align: center;
+    list-style: none;
+}
+.why-us li{
+    padding: 0rem;
+    margin : 0.4rem;
+}
+button{
+    background-color: rgb(32, 161, 7);
+    font-size: 1.5rem;
+    border: 0rem;
+    margin: 1.5rem 0rem;
+    padding: 0.7rem 2.5rem;
+    border-radius: 0.8rem;
+    color: aliceblue;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(32, 116, 15);
+}
