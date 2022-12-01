@@ -1,0 +1,46 @@
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+  }
+body {
+    background-color: #ffb459 !important;
+    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    height: 100vh;
+  }
+  .header {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .name {
+    width: 70%;
+    font-size: 20px;
+  }
+  .cost {
+    width: 15%;
+    font-size: 20px;
+  }
+  .action {
+    border-radius: 50% !important;
+    margin-left: 10px;
+  }
+  .menuitem {
+    display: flex;
+    margin-bottom: 10px;
+    cursor: move;
+    user-select: none;
+  }
+
+  .menuitem.dragElem {
+    opacity: 1;
+  }
+  .menuitem.over {
+    border: 2px dashed #000;
+    border-top: 2px solid blue;
+  }
+  
