@@ -1,0 +1,21 @@
+body{
+    background-color: blue;
+
+}
+
+.slider{
+}
+.slide-track{
+    display: flex;
+    column-gap: 10px;
+    
+}
+
+.slide{
+    transition: transform 1s linear;
+
+}
+.slider:hover .slide{
+    transform: translateX(100px) translateZ(-10px);
+    
+}
